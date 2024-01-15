@@ -50,9 +50,9 @@ def get_paths(root):
             'val_anno': root / 'bdd_daytime/annotations/bdd_daytime_val.json',
         },
         'interp_cityscapes_to_bdd_daytime': {
-            'train_img': root / 'cityscapes_instruction_bdd/train',  # FIXME: modify path
+            'train_img': root / 'city_instruction_bdd/train',
             'train_anno': root / 'cityscapes/annotations/cityscapes_train.json',
-            'val_img': root / 'cityscapes_instruction_bdd/val',  # FIXME: modify path
+            'val_img': root / 'city_instruction_bdd/val',
             'val_anno': root / 'cityscapes/annotations/cityscapes_val.json',
         },
     }
